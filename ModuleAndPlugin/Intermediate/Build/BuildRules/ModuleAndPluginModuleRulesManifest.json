@@ -1,6 +1,7 @@
 {
 	"SourceFiles": [
 		"C:\\GitHub\\HKH-Ten-assignment\\ModuleAndPlugin\\Source\\ModuleAndPlugin\\ModuleAndPlugin.Build.cs",
+		"C:\\GitHub\\HKH-Ten-assignment\\ModuleAndPlugin\\Source\\Test\\Test.Build.cs",
 		"C:\\GitHub\\HKH-Ten-assignment\\ModuleAndPlugin\\Source\\ModuleAndPlugin.Target.cs",
 		"C:\\GitHub\\HKH-Ten-assignment\\ModuleAndPlugin\\Source\\ModuleAndPluginEditor.Target.cs"
 	],
