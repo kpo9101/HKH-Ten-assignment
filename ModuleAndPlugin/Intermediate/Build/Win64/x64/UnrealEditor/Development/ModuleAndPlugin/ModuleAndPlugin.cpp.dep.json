@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\hkh-ten-assignment\\moduleandplugin\\source\\moduleandplugin\\moduleandplugin.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\hkh-ten-assignment\\moduleandplugin\\intermediate\\build\\win64\\x64\\moduleandplugineditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\hkh-ten-assignment\\moduleandplugin\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\moduleandplugin\\definitions.moduleandplugin.h",
+            "c:\\github\\hkh-ten-assignment\\moduleandplugin\\source\\moduleandplugin\\moduleandplugin.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

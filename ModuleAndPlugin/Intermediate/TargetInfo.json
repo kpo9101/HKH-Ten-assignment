@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ModuleAndPlugin",
+			"Path": "..\\Source\\ModuleAndPlugin.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ModuleAndPluginEditor",
+			"Path": "..\\Source\\ModuleAndPluginEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
