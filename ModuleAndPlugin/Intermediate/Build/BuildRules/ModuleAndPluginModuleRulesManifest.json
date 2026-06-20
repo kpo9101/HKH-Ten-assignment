@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
 		"C:\\GitHub\\HKH-Ten-assignment\\ModuleAndPlugin\\Source\\ModuleAndPlugin\\ModuleAndPlugin.Build.cs",
-		"C:\\GitHub\\HKH-Ten-assignment\\ModuleAndPlugin\\Source\\ModuleAndPlugin\\ModuleAndPlugin.Target.cs",
-		"C:\\GitHub\\HKH-Ten-assignment\\ModuleAndPlugin\\Source\\ModuleAndPlugin\\ModuleAndPluginEditor.Target.cs"
+		"C:\\GitHub\\HKH-Ten-assignment\\ModuleAndPlugin\\Source\\ModuleAndPlugin.Target.cs",
+		"C:\\GitHub\\HKH-Ten-assignment\\ModuleAndPlugin\\Source\\ModuleAndPluginEditor.Target.cs"
 	],
 	"EngineVersion": "5.5.4"
 }
