@@ -15,8 +15,10 @@
     <ProjectReference Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.5\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.csproj"><Private>false</Private></ProjectReference>
   </ItemGroup>
   <ItemGroup>
+  <Compile Include="..\..\..\..\Plugins\Temporary\Source\Temporary\Temporary.Build.cs"><Link>Plugins\Temporary\Source\Temporary\Temporary.Build.cs</Link></Compile>
   <Compile Include="..\..\..\..\Source\ModuleAndPlugin.Target.cs"><Link>Source\ModuleAndPlugin.Target.cs</Link></Compile>
   <Compile Include="..\..\..\..\Source\ModuleAndPluginEditor.Target.cs"><Link>Source\ModuleAndPluginEditor.Target.cs</Link></Compile>
   <Compile Include="..\..\..\..\Source\ModuleAndPlugin\ModuleAndPlugin.Build.cs"><Link>Source\ModuleAndPlugin\ModuleAndPlugin.Build.cs</Link></Compile>
+  <Compile Include="..\..\..\..\Source\Test\Test.Build.cs"><Link>Source\Test\Test.Build.cs</Link></Compile>
   </ItemGroup>
 </Project>

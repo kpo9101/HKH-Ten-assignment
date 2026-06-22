@@ -7,7 +7,12 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\GitHub\HKH-Ten-assignment\ModuleAndPlugin\Intermediate\Build\Win64\x64\ModuleAndPluginEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\GitHub\HKH-Ten-assignment\ModuleAndPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\ModuleAndPlugin\ModuleAndPlugin.init.gen.cpp.obj"
+"C:\GitHub\HKH-Ten-assignment\ModuleAndPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\ModuleAndPlugin\TP_ThirdPersonCharacter.gen.cpp.obj"
+"C:\GitHub\HKH-Ten-assignment\ModuleAndPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\ModuleAndPlugin\TP_ThirdPersonGameMode.gen.cpp.obj"
 "C:\GitHub\HKH-Ten-assignment\ModuleAndPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\ModuleAndPlugin\ModuleAndPlugin.cpp.obj"
+"C:\GitHub\HKH-Ten-assignment\ModuleAndPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\ModuleAndPlugin\TP_ThirdPersonCharacter.cpp.obj"
+"C:\GitHub\HKH-Ten-assignment\ModuleAndPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\ModuleAndPlugin\TP_ThirdPersonGameMode.cpp.obj"
 "C:\GitHub\HKH-Ten-assignment\ModuleAndPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\ModuleAndPlugin\PerModuleInline.gen.cpp.obj"
 "C:\GitHub\HKH-Ten-assignment\ModuleAndPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\ModuleAndPlugin\Default.rc2.res"
 /OUT:"C:\GitHub\HKH-Ten-assignment\ModuleAndPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\ModuleAndPlugin\UnrealEditor-ModuleAndPlugin.lib"

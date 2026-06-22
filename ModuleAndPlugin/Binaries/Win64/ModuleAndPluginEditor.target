@@ -30,7 +30,27 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(ProjectDir)/Binaries/Win64/UnrealEditor-Test.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Binaries/Win64/UnrealEditor-Test.pdb",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(ProjectDir)/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Temporary/Binaries/Win64/UnrealEditor-Temporary.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Temporary/Binaries/Win64/UnrealEditor-Temporary.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Temporary/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -4821,6 +4841,10 @@
 	"RuntimeDependencies": [
 		{
 			"Path": "$(ProjectDir)/ModuleAndPlugin.uproject",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Temporary/Temporary.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -30724,6 +30748,7 @@
 		"Takes",
 		"TcpMessaging",
 		"TemplateSequence",
+		"Temporary",
 		"TextureFormatOodle",
 		"ToolPresets",
 		"TraceUtilities",

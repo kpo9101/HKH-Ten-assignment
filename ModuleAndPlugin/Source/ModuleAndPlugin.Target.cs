@@ -10,6 +10,10 @@ public class ModuleAndPluginTarget : TargetRules
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_5;
-		ExtraModuleNames.Add("ModuleAndPlugin");
+		ExtraModuleNames.AddRange(new string[]
+		{
+			"ModuleAndPlugin",
+			"Test"
+		});
 	}
 }

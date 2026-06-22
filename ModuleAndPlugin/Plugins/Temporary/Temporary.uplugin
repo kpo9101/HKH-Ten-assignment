@@ -1,0 +1,19 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Temporary",
+	"Description": "Reusable runtime plugin for the module and plugin assignment.",
+	"Category": "Assignment",
+	"CreatedBy": "HKH",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "Temporary",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

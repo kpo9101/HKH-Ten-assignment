@@ -11,6 +11,10 @@
     <None Include="..\..\Source\ModuleAndPluginEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\README.md" />
+    <None Include="..\..\TIL.md" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -26,6 +30,42 @@
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Temporary">
+      <UniqueIdentifier>{203F7347-A1B6-31D9-B591-60136233C872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Temporary\Source">
+      <UniqueIdentifier>{30D2BD8A-A231-3345-8747-015F944523F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Temporary\Source\Temporary">
+      <UniqueIdentifier>{8719FEC1-0069-3BA4-88E8-3D168DA274BC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Temporary\Source\Temporary\Temporary.Build.cs">
+      <Filter>Plugins\Temporary\Source\Temporary</Filter>
+    </None>
+    <Filter Include="Plugins\Temporary\Source\Temporary\Private">
+      <UniqueIdentifier>{A9352B1C-B49D-31DE-8DB7-9FF4554AFB75}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Temporary\Source\Temporary\Private\Temporary.cpp">
+      <Filter>Plugins\Temporary\Source\Temporary\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Temporary\Source\Temporary\Private\TemporaryCharacterData.cpp">
+      <Filter>Plugins\Temporary\Source\Temporary\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Temporary\Source\Temporary\Public">
+      <UniqueIdentifier>{598BD08B-B099-39C4-A3FE-7721EF299C41}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Temporary\Source\Temporary\Public\Temporary.h">
+      <Filter>Plugins\Temporary\Source\Temporary\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Temporary\Source\Temporary\Public\TemporaryCharacterData.h">
+      <Filter>Plugins\Temporary\Source\Temporary\Public</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\Temporary\Temporary.uplugin">
+      <Filter>Plugins\Temporary</Filter>
+    </None>
     <Filter Include="Source\ModuleAndPlugin">
       <UniqueIdentifier>{F7B809D6-C32F-3973-A495-3F3168B4B280}</UniqueIdentifier>
     </Filter>
@@ -37,6 +77,42 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\ModuleAndPlugin\ModuleAndPlugin.h">
       <Filter>Source\ModuleAndPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ModuleAndPlugin\TP_ThirdPersonCharacter.cpp">
+      <Filter>Source\ModuleAndPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ModuleAndPlugin\TP_ThirdPersonCharacter.h">
+      <Filter>Source\ModuleAndPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ModuleAndPlugin\TP_ThirdPersonGameMode.cpp">
+      <Filter>Source\ModuleAndPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ModuleAndPlugin\TP_ThirdPersonGameMode.h">
+      <Filter>Source\ModuleAndPlugin</Filter>
+    </ClCompile>
+    <Filter Include="Source\Test">
+      <UniqueIdentifier>{D9386F37-2A31-3E18-96BF-A16556AD2C07}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Test\Test.Build.cs">
+      <Filter>Source\Test</Filter>
+    </None>
+    <Filter Include="Source\Test\Private">
+      <UniqueIdentifier>{DD4C0551-5437-3A2D-8F2F-EBA8F14ED56A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Test\Private\Test.cpp">
+      <Filter>Source\Test\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\Private\TestActor.cpp">
+      <Filter>Source\Test\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Test\Public">
+      <UniqueIdentifier>{0193F072-BAEA-34CB-BD0E-51F2E3FC13DE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Test\Public\Test.h">
+      <Filter>Source\Test\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Test\Public\TestActor.h">
+      <Filter>Source\Test\Public</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
