@@ -56,26 +56,3 @@ ModuleAndPlugin/
       Public/
       Private/
 ```
-
-## 빌드 방법
-
-프로젝트 파일 재생성:
-
-```powershell
-& "C:\Program Files\Epic Games\UE_5.5\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.exe" -projectfiles -project="C:\GitHub\HKH-Ten-assignment\ModuleAndPlugin\ModuleAndPlugin.uproject" -game -rocket -progress
-```
-
-에디터 타깃 빌드:
-
-```powershell
-& "C:\Program Files\Epic Games\UE_5.5\Engine\Build\BatchFiles\Build.bat" ModuleAndPluginEditor Win64 Development -Project="C:\GitHub\HKH-Ten-assignment\ModuleAndPlugin\ModuleAndPlugin.uproject" -WaitMutex -FromMsBuild
-```
-
-## 실행 확인
-
-에디터에서 Play를 누르면 다음 메시지가 화면에 출력됩니다.
-
-- `Test module spawned ATestActor!`
-- `Temporary plugin data: Module Player / Level 10 / Health 125`
-
-또한 Output Log에서 `Temporary plugin module has started.` 로그를 확인할 수 있습니다.
